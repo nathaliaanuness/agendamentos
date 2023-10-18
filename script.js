@@ -5,11 +5,11 @@ function toggleMode() {
   //pegar a tag img
   const img = document.querySelector("profile img")
   // substituir a imagem
-  if(html.classList.contains("light")) {
+  if (html.classList.contains("light")) {
     // se tiver light mode, add a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/nathalia.jpge")
   } else {
     //se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/Geovana.jpge")
   }
 }
