@@ -10,6 +10,6 @@ function toggleMode() {
     img.setAttribute("src", "./assets/nathalia.jpge")
   } else {
     //se tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "./assets/Geovana.jpge")
+    img.setAttribute("src", "./assets/geo.jpge")
   }
 }
